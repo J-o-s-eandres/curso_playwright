@@ -1,7 +1,7 @@
 import {expect, test} from '@playwright/test';
 
 // Grouping tests with describe block
-test.describe('Labels Example witk describe', () => {
+test.describe('Labels Example with describe', () => {
     test.beforeEach(async ({ page }) => {
         await page.goto('https://example.com');
     });
